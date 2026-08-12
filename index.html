@@ -23,10 +23,10 @@ window.__cpLoadPixel = function(){
 </script>
 <!-- End Meta Pixel Code -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>ClearPoint · Private transition guidance for leaders in crisis</title>
-<meta name="description" content="Private, one-to-one transition guidance for leaders and founders moving through crisis — from pressure to a position of clarity and strength. London. By application." />
-<meta property="og:title" content="ClearPoint · When the decision is yours alone" />
-<meta property="og:description" content="Private transition guidance for leaders and founders navigating crisis. London. By application." />
+<title>ClearPoint · Consultative support for executives through professional crisis</title>
+<meta name="description" content="Individual consultative support for executives and founders through professional crisis, role change, partnership conflict or difficult decisions. London. By application." />
+<meta property="og:title" content="ClearPoint · Consultative support for executives through professional crisis" />
+<meta property="og:description" content="Individual consultative support for executives and founders through professional crisis, role change, partnership conflict or difficult decisions. London. By application." />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="assets/lena-hero.jpg" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -218,6 +218,12 @@ window.__cpLoadPixel = function(){
   .creds{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
   .cred{font-family:"Manrope";font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--cream-dim);border:1px solid var(--line);padding:9px 15px;border-radius:100px}
   .cred strong{color:var(--gold);font-weight:600}
+  .creds-block{display:flex;flex-direction:column;gap:22px;margin-top:30px}
+  .creds-group{padding-top:18px;border-top:1px solid var(--line)}
+  .creds-group:first-child{border-top:none;padding-top:0}
+  .creds-label{font-family:"Manrope";font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;font-weight:600}
+  .creds-line{font-size:15px;color:var(--cream-dim);line-height:1.55}
+  .creds-line + .creds-line{margin-top:6px}
   @media(max-width:860px){.about-grid{grid-template-columns:1fr;gap:40px}.about-photo{max-width:340px}}
 
   /* path */
@@ -346,7 +352,7 @@ window.__cpLoadPixel = function(){
 <body>
 
 <div class="cookie-banner hidden" id="cookieBanner">
-  <p data-i18n="cookie.text">We use a minimal analytics cookie (Meta Pixel) only if you agree — to see whether this page reaches the right people. No cookie is set until you choose. See our <a href="privacy-policy.html">privacy policy</a>.</p>
+  <p data-i18n="cookie.text">I use a minimal analytics cookie (Meta Pixel) only if you agree — to see whether this page reaches the right people. No cookie is set until you choose. See the <a href="privacy-policy.html">privacy policy</a>.</p>
   <div class="cookie-actions">
     <button type="button" class="reject" id="cookieReject" data-i18n="cookie.reject">Necessary only</button>
     <button type="button" class="accept" id="cookieAccept" data-i18n="cookie.accept">Accept</button>
@@ -371,18 +377,18 @@ window.__cpLoadPixel = function(){
         <button type="button" data-lang="ua">UA</button>
         <button type="button" data-lang="ru">RU</button>
       </div>
-      <a href="#apply" class="nav-cta" data-i18n="nav.cta">Request a conversation</a>
+      <a href="#apply" class="nav-cta" data-i18n="nav.cta">Book an introductory meeting</a>
     </div>
   </nav>
 
   <!-- HERO -->
   <header class="hero container">
     <div class="hero-copy">
-      <div class="eyebrow reveal" data-i18n="hero.eyebrow">Private guidance for leaders in crisis</div>
-      <h1 class="reveal d1" data-i18n="hero.h1">When the decision is <em>yours alone.</em></h1>
-      <p class="lede reveal d2" data-i18n="hero.lede">A private, one-to-one passage for founders and leaders moving through crisis — a business exit, a partnership breaking — from a point of pressure to a position of clarity and steadiness.</p>
+      <div class="eyebrow reveal" data-i18n="hero.eyebrow">Consultative support for executives in crisis</div>
+      <h1 class="reveal d1" data-i18n="hero.h1">Consultative support for executives and founders through professional <em>crisis.</em></h1>
+      <p class="lede reveal d2" data-i18n="hero.lede">Individual work for executives and founders who are going through a crisis, a change of role, a partnership conflict, or a difficult decision. In our meetings, we analyse the situation, the personal and interpersonal factors involved, the risks, and the options available.</p>
       <div class="hero-actions reveal d3">
-        <a href="#apply" class="btn-primary" id="heroCta" data-i18n="hero.cta" data-cta-alt="Learn more">Request a private conversation</a>
+        <a href="#apply" class="btn-primary" id="heroCta" data-i18n="hero.cta" data-cta-alt="Learn more">Book an introductory meeting</a>
         <a href="#method" class="btn-ghost" data-i18n="hero.how">How the work is done →</a>
       </div>
       <div class="hero-meta reveal d3">
@@ -403,7 +409,7 @@ window.__cpLoadPixel = function(){
     <div class="container">
       <div class="trust-grid">
         <div class="trust-cell reveal"><div class="big">6+</div><div class="lbl" data-i18n="trust.1">Years of<br>private practice</div></div>
-        <div class="trust-cell reveal d1"><div class="big">1:1</div><div class="lbl" data-i18n="trust.2">This passage<br>one-to-one only</div></div>
+        <div class="trust-cell reveal d1"><div class="big">1:1</div><div class="lbl" data-i18n="trust.2">This work,<br>one-to-one only</div></div>
         <div class="trust-cell reveal d2"><div class="big">4</div><div class="lbl" data-i18n="trust.3">International<br>TA associations</div></div>
         <div class="trust-cell reveal d3"><div class="big">100%</div><div class="lbl" data-i18n="trust.4">Personally read<br>every request</div></div>
       </div>
@@ -413,15 +419,15 @@ window.__cpLoadPixel = function(){
   <!-- RECOGNITION -->
   <section class="recognition container">
     <div class="section-tag reveal"><span class="line"></span><span class="eyebrow" data-i18n="rec.tag">The moment</span></div>
-    <h2 class="reveal" data-i18n="rec.h2">You haven't lost your capability.<br>You've lost your <em>steadiness.</em></h2>
+    <h2 class="reveal" data-i18n="rec.h2">When your usual way of deciding stops <em>working.</em></h2>
     <div class="two-col" style="margin-top:14px">
       <div>
-        <p class="reveal" data-i18n="rec.p1">Growth, exit, a partnership breaking, a role you've outgrown, a version of yourself that no longer fits — the reference points you relied on no longer work.</p>
-        <p class="reveal d1" data-i18n="rec.p2">The weight of the decision is still yours. And the people around you need you steady, so there is rarely a place to think out loud, to be uncertain, to see your own blind spots before they become expensive.</p>
+        <p class="reveal" data-i18n="rec.p1">Professional growth, a business exit, a change of leadership role, or a partnership conflict can all disrupt the reference points you're used to relying on.</p>
+        <p class="reveal d1" data-i18n="rec.p2">The weight of the decision is still yours, and the people around you need you steady — so there is rarely a confidential space to think without pressure, and to notice the recurring patterns in how you think and interact before they raise the cost of the decision.</p>
       </div>
       <div>
-        <p class="reveal d1" data-i18n="rec.p3">This is not weakness. It is the cost of carrying a system on your shoulders. What you need now is not advice, and not another framework — it is an external, unhurried perspective and steady company through the passage itself.</p>
-        <p class="reveal d2" data-i18n="rec.p4">A place to regain clarity, choose deliberately, and move to a position that holds.</p>
+        <p class="reveal d1" data-i18n="rec.p3">This is not weakness. It is the cost of carrying a system on your shoulders. What you need now is not advice, and not another framework — it is an external, unhurried perspective on the situation you're in.</p>
+        <p class="reveal d2" data-i18n="rec.p4">A confidential space to regain clarity and decide deliberately.</p>
       </div>
     </div>
   </section>
@@ -429,16 +435,16 @@ window.__cpLoadPixel = function(){
   <!-- WHAT IT IS -->
   <section class="whatis container">
     <div class="section-tag reveal"><span class="line"></span><span class="eyebrow" data-i18n="what.tag">What this is</span></div>
-    <h2 class="reveal" style="max-width:720px" data-i18n="what.h2">Not therapy. Not coaching.<br>A guided <em style="font-style:italic;color:var(--gold)">transition.</em></h2>
-    <p class="lede reveal d1" style="max-width:640px;margin-top:20px" data-i18n="what.lede">I don't replace a doctor, a coach or long-term therapy. I accompany you through a passage — from where you are to where you've decided to be — and hold the process so the crossing is deliberate and clear.</p>
+    <h2 class="reveal" style="max-width:720px" data-i18n="what.h2">Individual consultative support for executives <em style="font-style:italic;color:var(--gold)">and founders.</em></h2>
+    <p class="lede reveal d1" style="max-width:640px;margin-top:20px" data-i18n="what.lede">This work is not a medical service and does not replace psychiatric care or psychotherapy where these are needed. I do not make medical diagnoses or treat mental or physical disorders. Where appropriate, I recommend consulting the relevant specialist.</p>
     <div class="define-grid reveal d1">
       <div class="define-cell is">
         <h4 data-i18n="what.isTitle">What the work gives you</h4>
         <ul>
-          <li data-i18n="what.is1">An external, confidential perspective on the decisions you carry alone</li>
-          <li data-i18n="what.is2">Clarity where there is noise, and steadiness where there is drift</li>
-          <li data-i18n="what.is3">Sight of the blind spots inside how you lead and relate</li>
-          <li data-i18n="what.is4">A steady, deliberate passage — not a quick fix</li>
+          <li data-i18n="what.is1">A structured way to describe the problem</li>
+          <li data-i18n="what.is2">A way to separate facts from assumptions and emotional reactions</li>
+          <li data-i18n="what.is3">Recognition of recurring patterns in how you think and interact</li>
+          <li data-i18n="what.is4">Clear criteria for the decision and a realistic set of next steps</li>
         </ul>
       </div>
       <div class="define-cell isnt">
@@ -455,29 +461,29 @@ window.__cpLoadPixel = function(){
 
   <!-- METHOD -->
   <section class="method container" id="method">
-    <div class="section-tag reveal"><span class="line"></span><span class="eyebrow" data-i18n="met.tag">The passage</span></div>
-    <h2 class="reveal" data-i18n="met.h2">From where you are<br>to a position that <em style="font-style:italic;color:var(--gold)">holds.</em></h2>
-    <p class="lede reveal d1" style="max-width:600px;margin-top:20px" data-i18n="met.lede">A structured, deeply individual accompaniment grounded in six years of practice with leaders and founders — and in the discipline of transactional analysis.</p>
+    <div class="section-tag reveal"><span class="line"></span><span class="eyebrow" data-i18n="met.tag">Working method</span></div>
+    <h2 class="reveal" data-i18n="met.h2">An authored three-stage structure<br>— not a clinical <em style="font-style:italic;color:var(--gold)">protocol.</em></h2>
+    <p class="lede reveal d1" style="max-width:600px;margin-top:20px" data-i18n="met.lede">A structured, individual process grounded in six years of practice with executives and founders, and in the discipline of transactional analysis. This is my own three-stage structure for consultative work — it is not a validated or standardised clinical protocol.</p>
     <div class="method-list">
       <div class="method-item reveal">
         <div class="method-num">01</div>
         <div>
-          <h3 data-i18n="met.1h">Locate point A — honestly</h3>
-          <p data-i18n="met.1p">I name the real position, not the presentable one: where the steadiness was lost, what the crisis is actually asking of you, and the blind spots in how you're reading it.</p>
+          <h3 data-i18n="met.1h">Assessing the current situation</h3>
+          <p data-i18n="met.1p">We clarify the request and the actual situation: what's happening, what decisions have already been made, what resources have been lost or retained, and the emotional and interpersonal factors involved.</p>
         </div>
       </div>
       <div class="method-item reveal">
         <div class="method-num">02</div>
         <div>
-          <h3 data-i18n="met.2h">Define point B — and the passage</h3>
-          <p data-i18n="met.2p">I set the position you've decided to reach, and accompany you across it as comfortably and deliberately as the situation allows — precise, targeted, unhurried.</p>
+          <h3 data-i18n="met.2h">Defining the desired change</h3>
+          <p data-i18n="met.2p">We define the outcome you want, the criteria for reaching it, the risks and constraints, and the sequence of steps. The pace of the work is agreed with you and matched to the real conditions of the situation.</p>
         </div>
       </div>
       <div class="method-item reveal">
         <div class="method-num">03</div>
         <div>
-          <h3 data-i18n="met.3h">Take a stable, self-directed position</h3>
-          <p data-i18n="met.3p">The outcome of the passage is a stable stance that returns your energy and force — the steadiness to walk your own scenario, and to improve it, on your terms.</p>
+          <h3 data-i18n="met.3h">Forming an autonomous position</h3>
+          <p data-i18n="met.3p">You define a decision that fits the current reality, your own values, and the limits of your responsibility — and plan how to sustain it under difficult conditions.</p>
         </div>
       </div>
     </div>
@@ -486,28 +492,28 @@ window.__cpLoadPixel = function(){
   <!-- OUTCOMES -->
   <section class="outcomes container">
     <div class="section-tag reveal"><span class="line"></span><span class="eyebrow" data-i18n="out.tag">The shift</span></div>
-    <h2 class="reveal" data-i18n="out.h2">What changes across<br>three months.</h2>
-    <p class="lede reveal d1" style="max-width:600px;margin-top:20px" data-i18n="out.lede">Not motivation, and not a plan you'll abandon. A change in the position you make decisions from.</p>
+    <h2 class="reveal" data-i18n="out.h2">What you can work on<br>over three months.</h2>
+    <p class="lede reveal d1" style="max-width:600px;margin-top:20px" data-i18n="out.lede">Possible areas of work, not a guaranteed effect. Specific goals and criteria for the result are agreed individually at the start of the work.</p>
     <div class="outcomes-grid">
       <div class="outcome reveal">
         <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 2v20M2 12h20" stroke-linecap="round"/></svg></div>
-        <h3 data-i18n="out.1h">Decisions from steadiness</h3>
-        <p data-i18n="out.1p">You make hard calls from steadiness — not from pressure, urgency or fear of the wrong move.</p>
+        <h3 data-i18n="out.1h">A clearer decision process</h3>
+        <p data-i18n="out.1p">You separate facts from assumptions and emotional reactions, and set clear criteria for the decision in front of you.</p>
       </div>
       <div class="outcome reveal d1">
         <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.5" fill="currentColor" stroke="none"/></svg></div>
-        <h3 data-i18n="out.2h">Clarity on what matters now</h3>
-        <p data-i18n="out.2p">The noise drops away. You see the one or two things that actually move your situation — and act on them.</p>
+        <h3 data-i18n="out.2h">A clearer view of the problem</h3>
+        <p data-i18n="out.2p">You structure the situation and identify the one or two factors that actually move it.</p>
       </div>
       <div class="outcome reveal">
         <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="2.5"/></svg></div>
-        <h3 data-i18n="out.3h">Blind spots in view</h3>
-        <p data-i18n="out.3p">The patterns in how you lead and relate become visible — before they quietly become expensive.</p>
+        <h3 data-i18n="out.3h">Awareness of recurring patterns</h3>
+        <p data-i18n="out.3p">You recognise repeating patterns in how you lead and relate that may be sharpening conflict or weakening decisions.</p>
       </div>
       <div class="outcome reveal d1">
         <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5L12 3Z" stroke-linejoin="round"/></svg></div>
-        <h3 data-i18n="out.4h">A position that holds</h3>
-        <p data-i18n="out.4p">You end with your energy back and a stance that stays stable when everything around you keeps moving.</p>
+        <h3 data-i18n="out.4h">A realistic plan and ways to sustain it</h3>
+        <p data-i18n="out.4p">You leave with a realistic plan of next steps, and ways to support the decision after the work ends.</p>
       </div>
     </div>
   </section>
@@ -517,13 +523,13 @@ window.__cpLoadPixel = function(){
     <div class="section-tag reveal"><span class="line"></span><span class="eyebrow" data-i18n="fit.tag">Is this for you</span></div>
     <div class="fit-grid">
       <div class="fit-card yes reveal d1">
-        <h3 data-i18n="fit.yesH">This is for you if</h3>
-        <div class="sub" data-i18n="fit.yesSub">The passage fits</div>
+        <h3 data-i18n="fit.yesH">This format may suit you if</h3>
+        <div class="sub" data-i18n="fit.yesSub">A good fit</div>
         <ul>
-          <li data-i18n="fit.yes1">You're a leader or founder at a crisis or turning point</li>
-          <li data-i18n="fit.yes2">You've lost clarity, steadiness or direction</li>
-          <li data-i18n="fit.yes3">You carry hard decisions alone and want an outside perspective</li>
-          <li data-i18n="fit.yes4">You want depth — not mass-market coaching or quick lifehacks</li>
+          <li data-i18n="fit.yes1">You need to make a difficult decision under uncertainty</li>
+          <li data-i18n="fit.yes2">Your professional role or scope of responsibility has changed</li>
+          <li data-i18n="fit.yes3">There's a conflict between partners or within your team</li>
+          <li data-i18n="fit.yes4">You're ready to meet regularly, examine your own part in the situation, test your assumptions, and decide for yourself</li>
         </ul>
       </div>
       <div class="fit-card no reveal d2">
@@ -531,9 +537,9 @@ window.__cpLoadPixel = function(){
         <div class="sub" data-i18n="fit.noSub">Better served elsewhere</div>
         <ul>
           <li data-i18n="fit.no1">You're looking for a one-off tip or a fast recipe</li>
-          <li data-i18n="fit.no2">You're in an acute clinical or medical state — this is not medicine</li>
+          <li data-i18n="fit.no2">You're in an emergency crisis, at risk of harm to yourself or others, or experiencing acute mental or physical symptoms that need medical care</li>
           <li data-i18n="fit.no3">You expect a guaranteed result</li>
-          <li data-i18n="fit.no4">You want to be told what to do rather than to decide clearly</li>
+          <li data-i18n="fit.no4">You want to be told what to do rather than to decide for yourself</li>
         </ul>
       </div>
     </div>
@@ -549,12 +555,26 @@ window.__cpLoadPixel = function(){
       <div>
         <div class="section-tag reveal"><span class="line"></span><span class="eyebrow" data-i18n="ab.tag">The person you'll work with</span></div>
         <h2 class="reveal">Lena <em>Lutkova</em></h2>
-        <p class="reveal d1" data-i18n="ab.p1">I work with leaders and entrepreneurs in crisis and transition. My practice is built on transactional analysis and on six years of private, one-to-one work with people who make decisions in isolation, where the cost of error is high.</p>
-        <p class="reveal d1" data-i18n="ab.p2">I've developed a structured way of moving a leader from a point of pressure to a stable, self-directed position. I hold Master's-level study in clinical and rehabilitation psychology (in progress), and I'm a CTA candidate and member of the international transactional-analysis community.</p>
-        <div class="creds reveal d2">
-          <span class="cred">Member · <strong>UKATA</strong> · <strong>UATA</strong> · <strong>EATA</strong> · <strong>ITAA</strong></span>
-          <span class="cred" data-i18n="ab.credTa">CTA Candidate</span>
-          <span class="cred" data-i18n="ab.credYears">6+ years private practice</span>
+        <p class="reveal d1" data-i18n="ab.p1">I work with executives and founders navigating professional crisis and complex decisions. My practice draws on transactional analysis and on six years of private, one-to-one work with people who make high-stakes decisions alone.</p>
+        <div class="creds-block reveal d2">
+          <div class="creds-group">
+            <div class="creds-label" data-i18n="ab.eduLabel">Education</div>
+            <div class="creds-line" data-i18n="ab.edu1">BSc, Information Security Systems — Kharkiv National University of Internal Affairs, 2012–2016</div>
+            <div class="creds-line" data-i18n="ab.edu2">MA, Clinical &amp; Rehabilitation Psychology — Cherkasy. Admitted; programme commencing September 2026.</div>
+          </div>
+          <div class="creds-group">
+            <div class="creds-label" data-i18n="ab.taLabel">Transactional analysis</div>
+            <div class="creds-line" data-i18n="ab.ta1">TA 101 / TA 202 — Transactional Analysis, 2021–2024</div>
+            <div class="creds-line" data-i18n="ab.ta2">Candidate-CTA (candidate for certification), UATA — since August 2026</div>
+          </div>
+          <div class="creds-group">
+            <div class="creds-label" data-i18n="ab.memLabel">Professional memberships</div>
+            <div class="creds-line" data-i18n="ab.mem1">Member of UKATA, UATA, EATA and ITAA</div>
+          </div>
+          <div class="creds-group">
+            <div class="creds-label" data-i18n="ab.practiceLabel">Practice</div>
+            <div class="creds-line" data-i18n="ab.credYears">6+ years private practice</div>
+          </div>
         </div>
       </div>
     </div>
@@ -573,11 +593,11 @@ window.__cpLoadPixel = function(){
       <div class="path-step reveal d2">
         <div class="n" data-i18n="path.2n">STEP 02</div>
         <h3 data-i18n="path.2h">A private meeting</h3>
-        <p data-i18n="path.2p">We meet one-to-one for 1–2 hours. We look at whether this passage is right for you, and whether we're right for each other. Nothing is decided under pressure.</p>
+        <p data-i18n="path.2p">We meet one-to-one for 1–2 hours. We look at whether this format is right for you, and whether we're right for each other. Nothing is decided under pressure.</p>
       </div>
       <div class="path-step reveal d3">
         <div class="n" data-i18n="path.3n">STEP 03</div>
-        <h3 data-i18n="path.3h">The passage</h3>
+        <h3 data-i18n="path.3h">The engagement begins</h3>
         <p data-i18n="path.3p">If it's a fit, payment covers a three-month contract: 8 one-hour sessions a month, plus messaging between sessions as needed. Regular one-to-one sessions, in London or online, at whatever pace the work calls for.</p>
       </div>
     </div>
@@ -586,27 +606,27 @@ window.__cpLoadPixel = function(){
   <!-- FAQ -->
   <section class="faq container">
     <div class="section-tag reveal"><span class="line"></span><span class="eyebrow" data-i18n="faq.tag">Before you ask</span></div>
-    <h2 class="reveal" data-i18n="faq.h2">Questions leaders ask me.</h2>
+    <h2 class="reveal" data-i18n="faq.h2">Frequently asked questions about the format of work.</h2>
     <div class="faq-list reveal d1">
       <div class="faq-item">
         <button class="faq-q"><span data-i18n="faq.q1">Is this therapy or coaching?</span><span class="plus">+</span></button>
-        <div class="faq-a"><p data-i18n="faq.a1">Neither. This is private, non-clinical guidance through a transition. I don't treat conditions and I don't run a coaching programme — I accompany you across a specific passage, from where you are to a position that holds.</p></div>
+        <div class="faq-a"><p data-i18n="faq.a1">This is individual consultative support for executives during periods of professional change. We start by defining your specific request, goals, and the boundaries of the work. It is not a medical service and does not replace psychotherapy or psychiatric care where these are needed.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q"><span data-i18n="faq.q2">I already work with a coach or therapist. Does this replace them?</span><span class="plus">+</span></button>
-        <div class="faq-a"><p data-i18n="faq.a2">No. I don't replace a doctor, a therapist or a coach, and I won't ask you to leave work that's serving you. This sits alongside it — focused only on the crossing you're in right now.</p></div>
+        <div class="faq-a"><p data-i18n="faq.a2">No, this format does not replace other kinds of support. At the first meeting, we check that our goals don't overlap and that combining formats is safe. You don't need to stop working with another specialist, and any communication with them happens only with your separate written consent.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q"><span data-i18n="faq.q3">How long does the work take?</span><span class="plus">+</span></button>
-        <div class="faq-a"><p data-i18n="faq.a3">The base format is a three-month contract: 8 one-hour sessions a month, plus messaging between sessions as needed. A transition isn't a single session or a quick recipe — it needs enough time to move you deliberately from point A to a stable point B.</p></div>
+        <div class="faq-a"><p data-i18n="faq.a3">The base format is a three-month contract: 8 one-hour sessions a month, plus messaging between sessions as needed. This isn't a single session or a quick recipe — the work needs enough time to address the situation properly.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q"><span data-i18n="faq.q4">Is it completely confidential?</span><span class="plus">+</span></button>
-        <div class="faq-a"><p data-i18n="faq.a4">I keep confidentiality within professional, ethical and legal limits. Your request is read by me alone, and any exceptions — if they arise — are discussed upfront.</p></div>
+        <div class="faq-a"><p data-i18n="faq.a4">I keep confidentiality within professional, ethical and legal limits. Exceptions and how risk is handled are agreed before the work begins and set out in writing. Professional cases may be discussed in supervision only to the extent needed for the quality of the work, with your anonymity preserved.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q"><span data-i18n="faq.q5">What happens at the first meeting?</span><span class="plus">+</span></button>
-        <div class="faq-a"><p data-i18n="faq.a5">A private, one-to-one meeting, 1–2 hours. We look at the moment you're in, whether this passage is right for you, and whether we're right for each other. If it's a fit, we move to a three-month contract. Nothing is decided under pressure.</p></div>
+        <div class="faq-a"><p data-i18n="faq.a5">A private, one-to-one meeting, 1–2 hours. We look at the moment you're in, whether this format is right for you, and whether we're right for each other. If it's a fit, we move to a three-month contract. Nothing is decided under pressure.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q"><span data-i18n="faq.q6">How much does this cost?</span><span class="plus">+</span></button>
@@ -620,13 +640,12 @@ window.__cpLoadPixel = function(){
     <div class="apply-card reveal">
       <div class="apply-intro">
         <div class="section-tag"><span class="line"></span><span class="eyebrow" data-i18n="ap.tag">By application</span></div>
-        <h2 data-i18n="ap.h2">Request a <em>private</em> conversation</h2>
-        <p data-i18n="ap.p">Describe, in a sentence or two, the moment you're in. I'll read it personally and reply — with a first outside perspective. No obligation.</p>
-        <div class="apply-scarcity" data-i18n="ap.scarcity"><strong>Founding cohort.</strong> I'm currently opening this work to the first three founders, at a founding rate. The rate is discussed privately on our first call.</div>
+        <h2 data-i18n="ap.h2">Request an <em>introductory</em> meeting</h2>
+        <p data-i18n="ap.p">Fill in a short form so I can understand the general subject of your enquiry and suggest a time for a first conversation. Please don't include detailed medical information or other sensitive data in the form.</p>
         <div class="apply-assure">
-          <div data-i18n="ap.as1">Strictly private — read by Lena alone</div>
-          <div data-i18n="ap.as2">No obligation, no pressure to proceed</div>
-          <div data-i18n="ap.as3">Currently accepting a small number of clients in London — online sessions available on request</div>
+          <div data-i18n="ap.as1">Handled confidentially — access to your request is limited to what's needed to respond to you</div>
+          <div data-i18n="ap.as2">After the introductory meeting, you decide independently whether to continue. Before payment, you'll get written information on format, price and cancellation terms.</div>
+          <div data-i18n="ap.as3">I work in person in London and online, subject to your location and applicable professional requirements</div>
         </div>
       </div>
 
@@ -662,12 +681,13 @@ window.__cpLoadPixel = function(){
             </select>
           </div>
           <div class="field">
-            <label for="context" data-i18n="f.context">Where are you right now? <span style="text-transform:none;letter-spacing:0;color:var(--cream-mute)">(optional)</span></label>
-            <textarea id="context" name="context" placeholder="A sentence or two about the crisis or transition you're moving through." data-i18n-ph="f.contextPh"></textarea>
+            <label for="context" data-i18n="f.context">Briefly describe the subject of your enquiry <span style="text-transform:none;letter-spacing:0;color:var(--cream-mute)">(optional, up to 500 characters)</span></label>
+            <textarea id="context" name="context" maxlength="500" placeholder="A sentence or two about the situation you're facing." data-i18n-ph="f.contextPh"></textarea>
+            <div class="form-note" style="text-align:left;margin-top:0" data-i18n="f.contextNote">Please don't send medical documents, detailed descriptions of traumatic events, or other sensitive data through this form.</div>
           </div>
           <label class="consent">
             <input type="checkbox" id="consent" name="consent" required style="width:auto;margin-right:8px;vertical-align:middle" />
-            <span data-i18n="f.consent">I agree that my details may be used to contact me about my request, in line with the <a href="privacy-policy.html">privacy notice</a>.</span>
+            <span data-i18n="f.consent">I'll use the details you provide to respond to your enquiry. For more on how your data is handled, retention periods and your rights, see the <a href="privacy-policy.html">privacy notice</a>.</span>
           </label>
           <button type="submit" class="btn-primary" data-i18n="f.send">Describe your situation</button>
           <div class="form-note" data-i18n="f.note">You'll hear back personally, usually within one working day.</div>
@@ -704,7 +724,7 @@ window.__cpLoadPixel = function(){
       </div>
     </div>
     <div class="disclaimer" data-i18n="foot.disclaimer">
-      ClearPoint provides private consulting and non-clinical transition guidance for leaders and entrepreneurs. It is not medical treatment, psychotherapy for the treatment of illness, or a substitute for medical or clinical care. If there is immediate danger to you or someone else, call 999 or go to your nearest A&E. Where there is no immediate danger, in acute distress or crisis, contact your GP, NHS 111, or the Samaritans on 116 123. If you are outside the UK, contact your local emergency service. I do not diagnose conditions or guarantee specific outcomes. Your data is handled confidentially and used only to respond to your enquiry, in accordance with UK GDPR. For the full description of your rights, retention periods, and how to request access, correction, or deletion, see our privacy notice.
+      ClearPoint provides individual consultative support for executives and founders through professional crisis and difficult decisions. It is not medical treatment, psychotherapy for the treatment of illness, or a substitute for medical or clinical care. This site is not a crisis support service. If there is immediate danger to you or someone else, call 999 or go to your nearest A&E. Where there is no immediate danger, in acute distress or crisis, contact your GP, NHS 111, or the Samaritans on 116 123. If you are outside the UK, contact your local emergency service. I do not diagnose conditions or guarantee specific outcomes. Your data is handled confidentially and used only to respond to your enquiry, in accordance with UK GDPR. For the full description of your rights, retention periods, and how to request access, correction, or deletion, see our privacy notice.
     </div>
     <div class="copyright">© 2026 ClearPoint Human Systems. All rights reserved.</div>
   </footer>
